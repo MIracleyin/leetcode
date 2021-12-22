@@ -3,4 +3,4 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(leetcode leetcode/editor/cn/9-palindrome-number.cpp)
+add_executable(leetcode leetcode/editor/cn/[1]-two-sum.cpp)
