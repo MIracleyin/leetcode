@@ -51,6 +51,7 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> has;//
         for(int i=0; i < nums.size(); i++){
+            cout << has[target - nums[i]] << endl;
             if (has[target - nums[i]] > 0){ // has[target - nums[i]] has[原数字]的位置 在0 后
                 return {has[target - nums[i]] - 1, i}; // i 是当前的位置， target-nums[i] 是原数字，has[原数字] 就是原位置 + 1 所以 -1
             }
