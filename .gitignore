@@ -2,3 +2,4 @@ cmake-build-debug
 *.json
 *.xml
 .idea
+jupyter/.ipynb_checkpoints
